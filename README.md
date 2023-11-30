@@ -19,4 +19,22 @@
 
 ![image](https://github.com/nedaei79/SEL-Week5/assets/62210316/2aed60d5-01cd-4cd2-b9b3-b0a0dadf07a9)
 
+در فایل تحویلی محتویات پروژه تا این مرحله در فایل SEL-Week5-Step1.zip قرار دارند و وضعیت پروژه در این لحظه هم در کامیت 3b301b6112abb0523c9e06a105a4ab1f7f7ebbb5 قابل مشاهده است.
+
 ## گام 3
+
+در اینجا مراحل گام 1 را یک بار دیگر از ابتدا برای تابعی که جذر تقسیم دو عدد را حساب می‌کند انجام دادیم. در تصاویر زیر پیاده‌سازی فایل feature، StepDefs و Calculator را مشاهده می‌کنید. نکته قابل توجه این است که خروجی تابع به ازای همه ورودی‌های valid یک عدد نامنفی است و تنها در دو حالت برای اعلام نامعتبر بودن ورودی‌ها، عددی منفی را خروجی می‌دهد: 1- یعنی مخرج 0 بوده است و 2- یعنی عدد زیر رادیکال منفی شده است.
+
+![image](https://github.com/nedaei79/SEL-Week5/assets/62210316/ca8d4cd2-e6cd-4107-be7b-ce2958e5f3cf)
+
+![image](https://github.com/nedaei79/SEL-Week5/assets/62210316/7e377782-3b44-4ff9-9615-90f177ffcefc)
+
+![image](https://github.com/nedaei79/SEL-Week5/assets/62210316/f01ed85a-316a-4962-be9c-f5ef0348eab1)
+
+در نهایت اجرای test در maven و نتیجه اجرای RunnerTest، هر دو موفق است و در تصاویر زیر قابل مشاهده است:
+
+![image](https://github.com/nedaei79/SEL-Week5/assets/62210316/d85e1f84-9448-4219-b01e-bc65a62a2e37)
+
+![image](https://github.com/nedaei79/SEL-Week5/assets/62210316/67243718-4fb4-4884-9c2b-4eeff469b4c0)
+
+در فایل تحویلی محتویات پروژه تا این مرحله در فایل SEL-Week5-Step3.zip قرار دارند و وضعیت پروژه در این لحظه هم در آخرین کامیت قابل مشاهده است.
