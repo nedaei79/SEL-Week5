@@ -10,7 +10,7 @@ public class StepDefs {
     private Calculator calculator;
     private int value1;
     private int value2;
-    private int result;
+    private double result;
 
     @Before
     public void before() {
@@ -26,13 +26,12 @@ public class StepDefs {
 
     @When("^I add the two values$")
     public void iAddTheTwoValues() {
-        result = calculator.add(value1, value2);
+        result = calculator.getSqrtOfDivision(value1, value2);
         System.out.print(result);
     }
 
-    @Then("^I expect the result (-?\\d+)$")
-    public void iExpectTheResult(int arg0) {
-        Assert.assertEquals(arg0, result);
-
+    @Then("^I expect the result (-?\\d+\\.\\d+)$")
+    public void iExpectTheResult(double arg0) {
+        Assert.assertEquals(arg0, result, 0.001);
     }
 }
